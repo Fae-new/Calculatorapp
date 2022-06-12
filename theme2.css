@@ -5,8 +5,12 @@
 #maindiv {
     padding-bottom: 50px;
     width: 100%;
-
-    background-color:   hsl(0, 4%, 37%);
+    background-color: hsl(0, 4%, 37%);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
 
 }
 
@@ -79,7 +83,7 @@
 
 #screen {
     height: 110px;
-    background-color:    hsl(0, 0%, 93%);
+    background-color: hsl(0, 0%, 93%);
     margin-bottom: 10px;
     border-radius: 10px;
 
@@ -89,7 +93,7 @@
 
 
     height: 350px;
-    background-color:  hsl(0, 5%, 81%);
+    background-color: hsl(0, 5%, 81%);
 
 
     border-radius: 10px;
@@ -152,4 +156,3 @@
     background-color: hsl(0, 94%, 65%);
     font-size: 25px;
 }
-

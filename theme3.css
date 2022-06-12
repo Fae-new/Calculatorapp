@@ -5,8 +5,12 @@
 #maindiv {
     padding-bottom: 50px;
     width: 100%;
-
     background-color: hsl(268, 75%, 9%);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
 
 }
 
@@ -129,7 +133,7 @@
     width: 20%;
     font-size: 25px;
     border-radius: 5px;
-box-shadow: 0px 5px hsl(281, 89%, 26%);
+    box-shadow: 0px 5px hsl(281, 89%, 26%);
     background-color: hsl(268, 47%, 21%);
 
 }
