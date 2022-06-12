@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="theme1.css" id="cssfile">
+  <link rel="stylesheet" href="theme1.css" id="cssfile">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Calculator app</title>
 </head>
+
 <body>
   <div id="maindiv">
-    
+
     <div id="calculator">
       <div id="nav">
-      <h2>calc</h2>
+        <h2>calc</h2>
 
-      <div id="themediv">
-        <p id="themeheader">Theme</p>
+        <div id="themediv">
+          <p id="themeheader">Theme</p>
 
-        <div id="themechange">
-        <p class="themebuttons" id="theme1-change" >1</p>
-        <p class="themebuttons" id="theme2-change"  >2</p>
-        <p class="themebuttons" id="theme3-change"  >3</p>
+          <div id="themechange">
+            <p class="themebuttons" id="theme1">1</p>
+            <p class="themebuttons" id="theme2">2</p>
+            <p class="themebuttons" id="theme3">3</p>
+          </div>
+        </div>
+
       </div>
-      </div>
+
+
+
+
+
+      <div id="screen">
+        <div id="questiondiv"></div>
+        <div id="answerdiv"></div>
 
       </div>
-  
+
+
+      <div id="body">
+
+        <div class="btn-rows">
+
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <h1 id="del">DEL</h1>
+        </div>
+
+        <div class="btn-rows">
+
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p id="add">+</p>
+        </div>
+
+        <div class="btn-rows">
+
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p id="subtract">-</p>
+        </div>
 
 
 
+        <div class="btn-rows">
 
-  <div id="screen">
-<div id="questiondiv"></div>
-<div id="answerdiv"></div>
+          <p>.</p>
+          <p>0</p>
+          <p id="divide">/</p>
+          <p id="multiply">x</p>
+
+
+        </div>
+
+
+        <div class="btn-rows">
+          <h1 id="reset">RESET</h1>
+          <h1 id="equalto">=</h1>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
 
   </div>
-  
-  
-  <div id="body">
-
-<div class="btn-rows">
-
-  <p>7</p>
-  <p>8</p>
-  <p>9</p>
-  <h1 id="del">DEL</h1>
-</div>
-
-<div class="btn-rows">
-  
-  <p>4</p>
-  <p>5</p>
-  <p>6</p>
-  <p id="add">+</p>
-</div>
-
-<div class="btn-rows">
-  
-  <p>1</p>
-  <p>2</p>
-  <p>3</p>
-  <p id="subtract">-</p>
-</div>
-
-
-
-<div class="btn-rows">
-  
-  <p>.</p>
-  <p>0</p>
-  <p id="divide">/</p>
-  <p id="multiply">*</p>
- 
-  
-</div>
-
-
-<div class="btn-rows">
-  <h1 id="reset">RESET</h1>
-  <h1 id="equalto">=</h1>
-  
-</div>
-
-
-  </div>
-
-</div>
-
-
-
-
-</div>
 
   <script src="jquery-3.6.0.min.js"></script>
- <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

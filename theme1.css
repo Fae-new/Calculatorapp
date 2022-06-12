@@ -1,63 +1,72 @@
-#maindiv{
- padding-bottom: 50px;
-width: 100%;
+*:hover {
+    cursor: pointer;
+}
 
-background-color: hsl(222, 26%, 31%);
+#maindiv {
+    padding-bottom: 50px;
+    width: 100%;
+
+    background-color: hsl(222, 26%, 31%);
 
 }
 
-#calculator{width: 300px;
-margin: auto;}
+#calculator {
+    width: 300px;
+    margin: auto;
+}
 
-#nav{
+#nav {
     color: white;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     align-items: center;
 }
-.themebuttons{
-    border:3px solid hsl(224, 36%, 15%);
+
+.themebuttons {
+    border: 3px solid hsl(224, 36%, 15%);
     width: 27px;
     font-size: 20px;
     text-align: center;
     height: 27px;
     margin-left: 5px;
-   
+
 }
 
-.themebuttons:hover{
-    background-color:hsl(224, 36%, 15%); 
+.themebuttons:hover {
+    background-color: hsl(224, 36%, 15%);
     cursor: pointer;
 }
-#themechange{
+
+#themechange {
     display: flex;
     flex-direction: row;
 
 }
-#themeheader{
+
+#themeheader {
     color: white;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    margin-bottom:-10px;
-   
+    margin-bottom: -10px;
+
 }
-#questiondiv{
+
+#questiondiv {
     height: 40px;
     text-align: left;
     display: flex;
     align-items: center;
 
-font-size: 30px;
-color: white;
-margin-left: 5px;
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
 }
 
 
-#answerdiv{
+#answerdiv {
     height: 70px;
     font-size: 35px;
     margin-right: 5px;
@@ -68,27 +77,28 @@ margin-left: 5px;
     text-align: right;
 }
 
-#screen{
+#screen {
     height: 110px;
     background-color: hsl(224, 36%, 15%);
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    
+
 }
-#body{
-    
-   
+
+#body {
+
+
     height: 350px;
-  background-color:  hsl(223, 31%, 20%);
+    background-color: hsl(223, 31%, 20%);
 
 
-  border-radius: 10px;
+    border-radius: 10px;
 
-  
+
 }
 
 
-.btn-rows{
+.btn-rows {
     display: flex;
     flex-direction: row;
     margin-bottom: -10px;
@@ -98,33 +108,35 @@ margin-left: 5px;
     width: 90%;
 
     margin-left: 5%;
- 
+
 
 
 
 }
 
-.btn-rows>p:hover{
+.btn-rows>p:hover {
     font-weight: bold;
     cursor: pointer;
-    
+
 }
 
-.btn-rows>p{
+.btn-rows>p {
     background-color: white;
     height: 30px;
     width: 20%;
     font-size: 25px;
     border-radius: 5px;
+    box-shadow: 0px 5px grey;
 }
 
-#reset{
+#reset {
     font-size: 25px;
-background-color: hsl(204, 82%, 68%);
+    background-color: hsl(204, 82%, 68%);
     width: 40%;
     border-radius: 5px;
 }
-#del{
+
+#del {
     background-color: hsl(204, 82%, 68%);
     font-size: 21px;
     border-radius: 5px;
@@ -133,9 +145,12 @@ background-color: hsl(204, 82%, 68%);
     margin-top: 25px;
 
 }
-#equalto{
+
+#equalto {
     width: 40%;
     border-radius: 5px;
     background-color: hsl(0, 94%, 65%);
     font-size: 25px;
+    box-shadow: 0px 5px hsl(0, 96%, 56%);
 }
+

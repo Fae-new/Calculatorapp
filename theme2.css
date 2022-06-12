@@ -1,137 +1,155 @@
-#maindiv{
- padding-bottom: 50px;
-    width: 80%;
-    margin-left: 10%;
-    background-color: hsl(0, 3%, 66%)
-    }
-    
-    
-    
-    #nav{
-        color: white;
-        width: 40%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 30%;
-        align-items: center;
-    }
-    .themebuttons{
-        border:3px solid hsl(224, 36%, 15%);
-        width: 27px;
-        font-size: 20px;
-        text-align: center;
-        height: 27px;
-        margin-left: 5px;
-        color: black;
-       
-    }
-    
-    .themebuttons:hover{
-        background-color:hsl(224, 36%, 15%); 
-        cursor: pointer;
-        color: white;
-    }
-    #themechange{
-        display: flex;
-        flex-direction: row;
-    
-    }
-  
+*:hover {
+    cursor: pointer;
+}
 
+#maindiv {
+    padding-bottom: 50px;
+    width: 100%;
 
-    #questiondiv{
-        height: 40px;
-        text-align: left;
-        display: flex;
-        align-items: center;
-    font-size: 30px;
-    color: black;
+    background-color:   hsl(0, 4%, 37%);
+
+}
+
+#calculator {
+    width: 300px;
+    margin: auto;
+}
+
+#nav {
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.themebuttons {
+    border: 3px solid hsl(224, 36%, 15%);
+    width: 27px;
+    font-size: 20px;
+    text-align: center;
+    height: 27px;
     margin-left: 5px;
-    }
-    
-    
-    #answerdiv{
-        height: 70px;
-        font-size: 35px;
-        margin-right: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        color: black;
-        text-align: right;
-    }
+
+}
+
+.themebuttons:hover {
+    background-color: hsl(224, 36%, 15%);
+    cursor: pointer;
+}
+
+#themechange {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#themeheader {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -10px;
+
+}
+
+#questiondiv {
+    height: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+}
+
+
+#answerdiv {
+    height: 70px;
+    font-size: 35px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    text-align: right;
+}
+
+#screen {
+    height: 110px;
+    background-color:    hsl(0, 0%, 93%);
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+#body {
+
+
+    height: 350px;
+    background-color:  hsl(0, 5%, 81%);
+
+
+    border-radius: 10px;
+
+
+}
+
+
+.btn-rows {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -10px;
+    justify-content: space-between;
+    text-align: center;
+
+    width: 90%;
+
+    margin-left: 5%;
 
 
 
-    #themeheader{
-        color: black;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom:-10px;
-       
-    }
-    
-    #screen{
-        height: 110px;
-        background-color:  hsl(0, 0%, 93%);
-        margin: 0px 0px 20px 30%;
-        width: 40%;
-        border-radius: 10px;
-        
-    }
-    #body{
-        
-     
-        height: 350px;
-      background-color:  hsl(0, 5%, 81%);
-   margin-left: 30%;
-      width: 40%;
-      border-radius: 10px;
-    }
-    h2{
-        color: black;
-    }
-    
-    .btn-rows{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: -10px;
-        justify-content: space-between;
-        text-align: center;
-    
-        width: 90%;
-    
-        margin-left: 5%;
-     
-    
-    
-    
-    }
-    
-    .btn-rows>p:hover{
-        font-weight: bold;
-        cursor: pointer;
-        
-    }
-    
-    .btn-rows>p{
-        background-color: white;
-        height: 30px;
-        width: 20%;
-        font-size: 25px;
-        border-radius: 5px;
-    }
-    
-    #reset-btn{
-    background-color: hsl(204, 90%, 54%);
-        width: 48%;
-    }
-    #del{
-        background-color: hsl(204, 90%, 54%);
-    }
-    #equalto{
-        width: 48%;
-        background-color: hsl(0, 94%, 65%);
-    }
+
+}
+
+.btn-rows>p:hover {
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-rows>p {
+    background-color: white;
+    height: 30px;
+    width: 20%;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 5px grey;
+}
+
+#reset {
+    font-size: 25px;
+    background-color: hsl(204, 82%, 68%);
+    width: 40%;
+    border-radius: 5px;
+}
+
+#del {
+    background-color: hsl(204, 82%, 68%);
+    font-size: 21px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 5px;
+    margin-top: 25px;
+
+}
+
+#equalto {
+    width: 40%;
+    border-radius: 5px;
+    background-color: hsl(0, 94%, 65%);
+    font-size: 25px;
+}
+
