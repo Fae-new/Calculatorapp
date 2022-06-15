@@ -1,3 +1,3 @@
 # Calculatorapp
 a simple calculator app
-live link: https://faecalcuator.netlify.app
+live link: https://faecalculator.netlify.app/
