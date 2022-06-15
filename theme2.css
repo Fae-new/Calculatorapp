@@ -156,3 +156,11 @@
     background-color: hsl(0, 94%, 65%);
     font-size: 25px;
 }
+@media screen and (max-width:768px){
+    *:hover {
+        cursor: none;
+    }
+
+
+
+}
